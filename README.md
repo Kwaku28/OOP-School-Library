@@ -20,6 +20,7 @@
   - [Install](#install)
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
+- [Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -41,6 +42,14 @@
     <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
 </details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+- **[Abstraction]**
+- **[Encapsulation]**
+- **[Inheritance]**
+- **[polymorphism]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,7 +80,7 @@ Clone this repository to your desired folder:
 To run tests, run the following command:
 
 ```sh
-  rspec
+  ruby test.rb
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -84,9 +93,15 @@ To run tests, run the following command:
 
 - GitHub: [@Kwaku28](https://github.com/Kwaku28)
 - Twitter: [@kwakuamoafo](https://twitter.com/kwakuamoafo)
-- LinkedIn: [lawrenceamoafo](https://linkedin.com/in/lawrenceamoafo)
+- LinkedIn: [Lawrence Amoafo](https://linkedin.com/in/lawrenceamoafo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[User Interface]**
 
 <!-- CONTRIBUTING -->
 
