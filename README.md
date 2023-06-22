@@ -19,6 +19,7 @@
   - [Setup](#setup)
   - [Install](#install)
   - [Run tests](#run-tests)
+  - [Usage](#usage)
 - [👥 Authors](#authors)
 - [Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -81,6 +82,14 @@ To run tests, run the following command:
 
 ```sh
   ruby test.rb
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  ruby main.rb
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
