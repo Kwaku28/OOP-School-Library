@@ -42,6 +42,14 @@
   </ul>
 </details>
 
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+- **[Abstraction]**
+- **[Encapsulation]**
+- **[Inheritance]**
+- **[polymorphism]**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -71,7 +79,7 @@ Clone this repository to your desired folder:
 To run tests, run the following command:
 
 ```sh
-  rspec
+  ruby test.rb
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
