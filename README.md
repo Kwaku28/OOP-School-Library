@@ -92,7 +92,7 @@ To run tests, run the following command:
 
 - GitHub: [@Kwaku28](https://github.com/Kwaku28)
 - Twitter: [@kwakuamoafo](https://twitter.com/kwakuamoafo)
-- LinkedIn: [lawrenceamoafo](https://linkedin.com/in/lawrenceamoafo)
+- LinkedIn: [Lawrence Amoafo](https://linkedin.com/in/lawrenceamoafo)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
