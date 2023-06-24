@@ -2,6 +2,7 @@ require_relative 'student'
 require_relative 'teacher'
 require_relative 'book'
 require_relative 'rental'
+require 'pry'
 
 class App
   def initialize
@@ -29,9 +30,11 @@ class App
     case permission
     when 'y'
       student = Student.new(age, nil, name, parent_permission: true)
+      binding.pry
       @people << student
     when 'n'
       student = Student.new(age, nil, name, parent_permission: false)
+      binding.pry
       @people << student
     else
       'You have entered an invalid option'
@@ -95,6 +98,11 @@ class App
     @rentals << rented
 
     puts 'Book was successfully rented'
+
+    binding.pry
+
+    # Introduce a bug here
+    @books[selected_book].rented = true
   end
 
   def list_rental
