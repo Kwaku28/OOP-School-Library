@@ -1,0 +1,19 @@
+[
+  {
+    "_class": "Student",
+    "object_id": 60,
+    "id": 334,
+    "name": "Lawrence Amoafo",
+    "age": 25,
+    "parent_permission": true,
+    "classroom": null
+  },
+  {
+    "_class": "Teacher",
+    "object_id": 80,
+    "id": 112,
+    "name": "Clement Agyin",
+    "age": 56,
+    "specialization": "Anthropology"
+  }
+]
