@@ -47,6 +47,7 @@
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
+
 - **[Abstraction]**
 - **[Encapsulation]**
 - **[Inheritance]**
@@ -67,6 +68,7 @@ In order to run this project you need:
 ```sh
  bundle install
 ```
+
 ### Setup
 
 Clone this repository to your desired folder:
@@ -103,6 +105,11 @@ To run the project, execute the following command:
 - GitHub: [@Kwaku28](https://github.com/Kwaku28)
 - Twitter: [@kwakuamoafo](https://twitter.com/kwakuamoafo)
 - LinkedIn: [Lawrence Amoafo](https://linkedin.com/in/lawrenceamoafo)
+
+👤 **Rushema Anicet**
+
+- GitHub: [@rushemaa](https://github.com/rushemaa)
+- LinkedIn: [Rushema Anicet](https://www.linkedin.com/in/rushemaa/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
