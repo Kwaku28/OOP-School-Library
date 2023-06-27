@@ -31,4 +31,3 @@ def create_teacher
   @people << teacher
   puts 'You have successfully registered a Teacher'
 end
-  
