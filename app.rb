@@ -25,6 +25,20 @@ class App
     end
   end
 
+  def list_rental
+    @rentals = read_file('data/rentals.json')
+    if @rentals.empty?
+      puts 'No recent rentals!'
+      return
+    end
+    list_people
+    print 'Enter the Person ID: '
+    person_id = gets.chomp.to_i
+    @rentals.each do |rent|
+      puts "Date: #{rent['date']}, Book: #{rent['book']['title']} | Author: #{rent['book']['author']}" if rent['person']['id'] == person_id
+    end
+  end
+  
   def create_student
     print 'Age: '
     age = gets.chomp.to_i
@@ -84,6 +98,20 @@ class App
     @books << book
     write_file(@books, 'data/books.json')
     puts 'Book was created successfully'
+  end
+
+  def select_book
+    @books = read_file('data/books.json')
+    puts 'Select a book from the following list by number'
+    @books.each_with_index { |book, index| puts "#{index}) Title: #{book['title']} | Author: #{book['author']}" }
+  end
+  
+  def select_person
+    @people = read_file('data/people.json')
+    puts 'Select a person from the following list by number (not id)'
+    @people.each_with_index do |person, index|
+      puts "#{index}) Name: #{person['name']}, Id: #{person['id']}, Age: #{person['age']}"
+    end
   end
 
   def create_rental
