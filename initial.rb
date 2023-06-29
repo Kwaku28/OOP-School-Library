@@ -12,16 +12,12 @@ def manage_selection(app, option)
     4 => :create_book,
     5 => :create_rental,
     6 => :list_rental,
-    7 => :exit,
+    7 => :exit_app,
     default: :invalid_option
   }
 
   selection = tasks[option] || tasks[:default]
   app.send(selection)
-
-  return unless option == 7
-
-  exit
 end
 
 def initial(app)
