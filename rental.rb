@@ -18,5 +18,4 @@ class Rental
       person: @person
     }
   end
-  
 end
