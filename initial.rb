@@ -4,6 +4,12 @@ def menu(app)
   gets.chomp.to_i
 end
 
+def intro
+  puts '=============================='
+  puts 'Welcome to School Library App!'
+  puts '=============================='
+end
+
 def manage_selection(app, option)
   tasks = {
     1 => :list_books,
@@ -21,6 +27,7 @@ def manage_selection(app, option)
 end
 
 def initial(app)
+  intro
   loop do
     option = menu(app)
     manage_selection(app, option)

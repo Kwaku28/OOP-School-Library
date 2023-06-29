@@ -150,8 +150,7 @@ class App
   end
 
   def options
-    puts 'Please enter the number for the task you want to perform'
-    puts 'choose one of the following'
+    puts 'Please enter one of the ff numbers to perform its corresponding task'
     puts '1 - List all books'
     puts '2 - List all people'
     puts '3 - Create a person'
