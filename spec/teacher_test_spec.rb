@@ -1,6 +1,5 @@
 require_relative '../teacher'
 
-
 describe Teacher do
   context 'Testing Teacher' do
     it 'Should create a teacher' do
