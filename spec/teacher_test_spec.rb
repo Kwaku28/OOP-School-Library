@@ -11,6 +11,5 @@ describe Teacher do
       teacher = Teacher.new(56, 'Computer ingeneering', 'James', parent_permission: true)
       expect(teacher.can_use_services?).to be true
     end
-
   end
 end
