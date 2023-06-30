@@ -1,6 +1,5 @@
 class Classroom
-  attr_accessor :lable
-  attr_reader :student
+  attr_accessor :lable, :students
 
   def initialize(lable)
     @lable = lable
