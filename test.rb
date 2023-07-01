@@ -1,7 +1,7 @@
-require_relative 'person'
-require_relative 'decorator'
-require_relative 'trimmer'
-require_relative 'capitalize'
+require_relative './classes/person'
+require_relative './classes/decorator'
+require_relative './classes/trimmer'
+require_relative './classes/capitalize'
 
 person = Person.new(22, 'maximilianus')
 puts person.correct_name
