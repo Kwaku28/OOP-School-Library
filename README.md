@@ -84,6 +84,7 @@ To run tests, run the following command:
 
 ```sh
   ruby test.rb
+  rspec
 ```
 
 ### Usage
